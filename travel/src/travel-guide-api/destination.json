@@ -1,0 +1,67 @@
+{
+  "destinations": [
+    {
+      "id": "1",
+      "name": "Paris",
+      "country": "France",
+      "description": "The City of Light, known for the Eiffel Tower, art, and cafes.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ7Xxmj7nj4NgzR7BANNEz9Qtwps3TpiayQA&s",
+      "category": "City",
+      "rating": 4.8
+    },
+    {
+      "id": "2",
+      "name": "Kyoto",
+      "country": "Japan",
+      "description": "Famous for its temples, gardens, and traditional wooden houses.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW42ZI3hd_B1hR3-LsVV2sKYwnjtznpOMbKfkFFcqIfLndIi7ubLbuyqIGeE6Bq0FLIio&usqp=CAU",
+      "category": "Cultural",
+      "rating": 4.7
+    },
+    {
+      "id": "3",
+      "name": "Santorini",
+      "country": "Greece",
+      "description": "A scenic island known for white-washed buildings and sunsets.",
+      "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0a/40/6a/3c.jpg",
+      "category": "Island",
+      "rating": 4.9
+    },
+    {
+      "id": "4",
+      "name": "Banff National Park",
+      "country": "Canada",
+      "description": "Stunning mountain views and turquoise lakes in the Rockies.",
+      "image": "https://static.toiimg.com/thumb/55704503.cms?resizemode=75&width=1200&height=900",
+      "category": "Nature",
+      "rating": 4.9
+    },
+    {
+      "id": "5",
+      "name": "Marrakech",
+      "country": "Morocco",
+      "description": "A vibrant city known for markets, palaces, and rich culture.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Djemaa_el_Fna.jpg/330px-Djemaa_el_Fna.jpg",
+      "category": "City",
+      "rating": 4.5
+    },
+    {
+      "id": "6",
+      "name": "rajkot",
+      "country": "india",
+      "description": "city of colours",
+      "image": "https://i.ytimg.com/vi/s8Lsp0TzMPo/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC7aDzIhtwJMTQ9MZA0uMOPtGaogQ",
+      "category": "City",
+      "rating": 5
+    },
+    {
+      "id": "8",
+      "name": "Atal Bridge",
+      "country": "India",
+      "description": "Atal Bridge Ahmedabad · 1. Total Length: 300 m, Middle span 100 m. · 2. Width:10 m at both ends and 14 m at middle portion · 3. Entry from both Upper and lower ..",
+      "image": "https://vagatrip.com/storage/blogs/March2023/Foot-Over-Bridge-Aerial-View.jpeg",
+      "category": "amdavad",
+      "rating": 4
+    }
+  ]
+}

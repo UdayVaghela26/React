@@ -1,0 +1,154 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: #111111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 360px;
+  padding: 20px;
+}
+
+/* Tabs */
+.tab-switch {
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.tab-button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding-bottom: 6px;
+  font-weight: 500;
+  color: #c7c7c7;
+}
+
+.tab-button.active {
+  color: #2563eb;
+  border-bottom: 2px solid #2563eb;
+}
+
+/* Labels and inputs */
+label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  display: block;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  font-size: 15px;
+  outline: none;
+}
+
+input[type="password"].error {
+  border-color: red;
+}
+
+/* Forgot and error */
+.forgot-section {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.forgot-section span {
+  color: #c7c7c7;
+}
+
+.forgot-section a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+/* Continue button */
+button.primary {
+  width: 100%;
+  background-color: #5b8def;
+  color: white;
+  padding: 13px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 24px;
+}
+
+/* Divider */
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.divider hr {
+  flex-grow: 1;
+  border: none;
+  height: 1px;
+  background-color: #e0e0e0;
+}
+
+.divider span {
+  margin: 0 10px;
+  color: #aaa;
+  font-size: 13px;
+}
+
+/* Auth Buttons */
+.auth-button {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  background-color: white;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.auth-button span {
+  margin-right: 8px;
+}
+
+/* Footer link */
+.footer {
+  text-align: center;
+  font-size: 13px;
+  color: #888;
+  margin-top: 20px;
+}
+
+.footer a {
+  color: #2563eb;
+  text-decoration: none;
+  margin-left: 4px;
+}
